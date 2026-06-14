@@ -332,3 +332,24 @@ font-size:30px;
 }
 
 }
+.top-contact{
+    text-align:center;
+    font-size:14px;
+    font-weight:600;
+}
+
+.top-contact a{
+    color:#0b1f3a;
+    text-decoration:none;
+}
+
+.top-contact a:hover{
+    color:#d4af37;
+}
+
+@media(max-width:768px){
+    .top-contact{
+        font-size:12px;
+        margin:8px 0;
+    }
+}
